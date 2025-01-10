@@ -33,4 +33,8 @@ public class Shape {
                 + " and "
                 + (isFilled() ? "filled" : "not filled");
     }
+
+    public double getArea() {
+        throw new UnsupportedOperationException("This shape does not have an area.");
+    }
 }

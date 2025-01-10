@@ -20,7 +20,8 @@ public class Square extends Rectangle implements Colorable {
     }
 
     @Override
-    public void howToColor() {
-
+    public String howToColor() {
+        return "Color all four sides..";
     }
 }
+

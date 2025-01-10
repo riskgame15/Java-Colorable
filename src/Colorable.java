@@ -1,3 +1,3 @@
 public interface Colorable {
-    void howToColor();
+    String howToColor();
 }

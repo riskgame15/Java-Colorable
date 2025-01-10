@@ -5,7 +5,7 @@ public class Test {
         list[1] = new Rectangle(5, 10);
         list[2] = new Square(7);
         for (Shape shape : list) {
-            System.out.println("Area of the shape: " );
+            System.out.println("Area of the shape: " + shape.getArea());
             if (shape instanceof Colorable) {
                 ((Colorable) shape).howToColor();
             }
